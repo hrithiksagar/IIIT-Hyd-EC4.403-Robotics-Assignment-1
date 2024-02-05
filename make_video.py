@@ -4,6 +4,8 @@ import random
 import numpy as np
 from matplotlib.lines import Line2D
 import itertools
+import os
+import cv2
 
 ## Helper function to generate video from individual frames.
 def frames_to_video(input_path, output_path, fps):
